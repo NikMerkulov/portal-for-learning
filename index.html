@@ -3,12 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
   <link rel="stylesheet" href="index.css">
   <title>Портал для обучения</title>
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="header-logo">
+      <div class="logo">Логотип</div>
+      <span>Заголовок как<br>на главной странице</span>
+    </div>
+    <div class="clock">
+      <img src="src/images/clock.png">
+      <span id="time">12:21</span>
+    </div>
+    <div class="auth">
+      <div class="user-info">
+        <img src="src/images/photo.png">
+        <span>Имя пользователя</span>
+      </div>
+    </div>
+  </header>
   <div class="content-container"></div>
   <footer></footer>
 </body>
