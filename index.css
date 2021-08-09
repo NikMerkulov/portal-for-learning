@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +8,84 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  font-family: 'Nunito';
 }
+
 header {
   position: absolute;
   top: 0;
   width: 100%;
   height: 120px;
   background-color: #10376E;
+  display: flex;
+  color: white;
+}
+header > * {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+.logo {
+  width: 132px;
+  height: 81px;
+  background-color: #1389E6;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo span {
+  margin-left: 27px;
+  font-weight: 600;
+  font-size: 24px;
+  width: 240px;
+  height: 66px;
+  line-height: 32px;
+}
+.clock {
+  flex: 1;
+}
+.clock img {
+  height: 33px;
+  width: 33px;
+}
+.clock span {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 57px;
+}
+.auth {
+  flex: 1;
+  margin-right: 180px;
+}
+.user-info {
+  background-color: #0B264D;
+  display: flex;
+  padding: 15px 46px;
+  align-items: center;
+}
+.user-info img {
+  width: 50px;
+  height: 50px;
+}
+.user-info span {
+  margin-left: 20px;
+  width: 220px;
+  height: 33px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  
 }
 footer {
   position: absolute;
